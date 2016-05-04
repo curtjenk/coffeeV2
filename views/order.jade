@@ -1,0 +1,77 @@
+extends layout
+
+block content
+	div.container-fluid.order
+		.row
+			.col-sm-6.col-sm-offset-3.text-center
+				h2 Tell us what you want!!
+				h4 Shipping is free and you can skip any week
+		.row
+			.col-sm-12.text-center.plans
+				.col-sm-3.col-sm-offset-3.order-card
+					h3 Individual Plan
+					h5 For those who drink alone
+					img(src="images/solodrinker.jpg")
+					.col-sm-12.order-cost
+						.row
+							.col-sm-6.text-right
+								p Cups per week:
+							.col-sm-6.text-left
+								p 14
+						.row
+							.col-sm-6.text-right
+								p Price per cup:
+							.col-sm-6.text-left
+								p $.50
+						.row
+							.col-sm-6.text-right
+								p Weekly total:
+							.col-sm-6.text-left
+								p $7.00
+						.row
+							.col-sm-6.text-right
+								p Grind type:
+							.col-sm-6.text-left					
+								select.select-grind.form-control
+									option(value="empty")
+									option(value="grind1") Grind 1
+									option(value="grind2") Grind 2
+									option(value="grind3") Grind 3
+						.row
+							button.btn.btn-success(type="button") Submit
+							h5 Shipping is always free
+							h6 Skip any week.  Cancel anytime
+
+				.col-sm-3.col-sm-offset-1.order-card
+					h3 Family Plan
+					h5 For those who drink together
+					img(src="images/coffeedrinkers.jpg")
+					.col-sm-12.order-cost
+						.row
+							.col-sm-6.text-right
+								p Cups per week:
+							.col-sm-6.text-left
+								p 40
+						.row
+							.col-sm-6.text-right
+								p Price per cup:
+							.col-sm-6.text-left
+								p $.45
+						.row
+							.col-sm-6.text-right
+								p Weekly total:
+							.col-sm-6.text-left
+								p $18.00
+						.row
+							.col-sm-6.text-right
+								p Grind type:
+							.col-sm-6.text-left					
+								select.select-grind.form-control
+									option(value="empty")
+									option(value="grind1") Grind 1
+									option(value="grind2") Grind 2
+									option(value="grind3") Grind 3
+						.row
+							button.btn.btn-success(type="button") Submit
+							h5 Shipping is always free
+							h6 Skip any week.  Cancel anytime

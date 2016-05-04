@@ -1,0 +1,49 @@
+body {
+    padding-top: 49px;
+    background-color: #f2f2f2;
+    color: #003300;
+}
+
+img {
+    max-width: 100%;
+}
+.pwd-error {
+  color: red;
+}
+.navbar {
+    padding-top: 5px;
+    padding-bottom: 3px;
+    text-align: center;
+    .btn-link {
+        color: white;
+        text-decoration: none;
+    }
+    .btn-link:hover {
+        color: white;
+    }
+    background-color: #003300;
+    .nav-line-2 {
+        background-color: grey;
+        color: white;
+        width: 100%;
+        span {
+          padding-left: 4px;
+        }
+        li {
+          list-style-type: none;
+          a {
+            color: white;
+            text-decoration: none;
+          }
+        }
+
+    }
+    img {
+        display: block;
+        margin-top: 2px;
+        height: 40px;
+    }
+}
+button.btn {
+  background-color: #003300;
+}

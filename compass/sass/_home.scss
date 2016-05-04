@@ -1,0 +1,83 @@
+.header {
+   background: url('../images/coffee2.jpg') no-repeat;
+  // background-color: #e6ccb3;
+  // background-color:  #ddd;
+  background-size: cover;
+  font-weight: bold;
+  // font-family: cursive;
+  font-size: 30px;
+  color: #ffffff;
+  height: 110px;
+}
+.how {
+  margin-top: 4px;
+  font-size: 20px;
+  color: #86582d;
+}
+
+.arrow-holder {
+  height: 10px;
+  width: 10px;
+  .arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    // border-top: 20px solid black;
+    margin-top: 10px;
+  }
+}
+
+.steps {
+  color: white;
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+//"clip" the top left corner of the image
+#step-one:before, #step-three:before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    border-top: 10px solid #f2f2f2;
+    border-right: 10px solid transparent;
+    width: 0;
+}
+#step-one{
+  background: url('../images/CoffeeBags.jpg') no-repeat;
+  background-size: cover;
+  .arrow-holder {
+   .arrow-down {
+      border-top: 20px solid tan;
+    }
+  }
+}
+#step-two{
+  color: grey;
+  padding: 0;
+  img {
+    display: block;
+    transform: rotate(-20deg);
+    height: 100px;
+    margin-top: 25px;
+    border: 2px solid white;
+  }
+
+}
+
+#step-three{
+  background-color: black;
+  position: relative;
+  height: 140px;
+  img{
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 50%;
+    height: 95%;
+  }
+  .arrow-holder {
+   .arrow-down {
+      border-top: 20px solid black;
+    }
+  }
+}

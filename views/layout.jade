@@ -1,0 +1,17 @@
+
+doctype html
+html(lang="en")
+	head
+		title= title
+		meta(name="viewport" content="width=device-width")
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js")
+		script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js")
+		link(rel='stylesheet', href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css")
+		link(rel='stylesheet', href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css")
+		link(rel='stylesheet', href="https://fonts.googleapis.com/css?family=Oswald%7CIndie+Flower%7CDosis")
+		link(rel='stylesheet', href='/stylesheets/style.css')
+	body
+		include nav
+		block content
+			p This is default content
+		include footer

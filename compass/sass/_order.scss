@@ -1,0 +1,19 @@
+.order {
+    margin-top: 90px;
+    color: #000;
+    .plans {
+        margin-top: 20px;
+    }
+    .order-card {
+        background-color: white;
+        border: 1px solid white;
+        box-shadow: 1px 1px 1px lightgrey;
+        .order-cost {
+            margin-top: 15px;
+        }
+    }
+    .select-grind {
+        height: 25px;
+        margin-bottom: 5px;
+    }
+}

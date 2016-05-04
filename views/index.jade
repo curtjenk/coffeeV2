@@ -1,0 +1,47 @@
+extends layout
+
+block content
+	div.container-fluid
+		.row.header
+			.col-sm-12
+				h2 A better way to grind!
+				h5 Freshly roasted coffee beans delivered weekly to your door.
+		.row.how
+			.col-sm-12.text-center
+				p How It Works
+		.row
+			#step-one.col-sm-12.steps
+				h3.title 1. We get the coffee
+				p Each bean is hand selected
+				p Each bean is measured for precise size
+				p Each bean is tenderly caressed
+				.col-sm-6.col-sm-offset-6.arrow-holder
+					.arrow-down
+		.row
+			#step-two.col-sm-12.steps
+				.col-sm-2
+					img(src="images/grower.jpg")
+				.col-sm-9
+					h3 2. We pick up the coffee
+					p  We place the coffee in bags
+					p  Each bag is transported in climate-controlled trucks
+					p  Every six hours the bags are rotated to keep the beans uniform and delicious
+				.col-sm-6.col-sm-offset-6.arrow-holder
+					.arrow-down
+		.row
+			#step-three.col-sm-12.steps
+				img(src="images/cupSteam.jpg")
+				h3 3. You drink the coffee
+				p The coffee tastes delicious
+				p You want more coffee!!
+				p Get it NOW!
+				.col-sm-6.col-sm-offset-6.arrow-holder
+					.arrow-down
+		.row
+			#get-started.col-sm-12
+				a(href="/register")
+					button.btn.btn-primary(type="button") Get Started
+
+
+
+
